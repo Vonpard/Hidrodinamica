@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+<title>Hidrodinamica-Fisica Basica</title>  
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Roboto:400,700&display=swap" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+</head>
+
+<body>
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand" href="index.html">
+            <span>
+              Fisica Basica
+            </span>
+          </a>
+          <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="d-flex mx-auto flex-column flex-lg-row align-items-center">
+              <ul class="navbar-nav  ">
+                <li class="nav-item ">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html"> Conceptos Basicos </a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="service.html"> Ecuaciones/Ejercicios </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Actividades/Recursos Adicionales</a>
+                </li>
+                <!--<li class="nav-item">
+                  <a class="nav-link" href="login.html">Login</a>
+                </li>-->
+              </ul>
+            </div>
+          </div>
+          <!--<form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
+            <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
+          </form>-->
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+  </div>
+
+  <!-- service section -->
+
+  <section class="service_section layout_padding">
+    <div class="container">
+      <div class="custom_heading-container">
+        <h3 class=" ">
+          Ecuaciones
+        </h3>
+      </div>
+      <p class="">
+        En la hidrodinámica, las ecuaciones y modelos son herramientas fundamentales para describir
+        y analizar el comportamiento de los fluidos en movimiento.
+      </p>
+      <div class="service_container ">
+        <!--<div class="row">
+         <div class="image-container">
+            <img src="image1.jpg" alt="Image 1" onclick="openModal('image1.jpg', 'Caption for Image 1')">
+            <img src="image2.jpg" alt="Image 2" onclick="openModal('image2.jpg', 'Caption for Image 2')">
+            <img src="image3.jpg" alt="Image 3" onclick="openModal('image3.jpg', 'Caption for Image 3')">
+            <img src="image4.jpg" alt="Image 4" onclick="openModal('image4.jpg', 'Caption for Image 4')">
+          </div>
+        
+          <div id="modal" class="modal">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img id="modalImage" class="modal-content" src="" alt="Modal Image">
+            <div id="caption" class="caption"></div>
+          </div>-
+
+          <div class="detail-box">
+            <h6 style="text-align: center;">
+              Principio de Bernoulli
+            </h6>
+            <p style="text-align: center;">
+          
+            </p>
+            <button id="openModal" >Abrir ventana emergente</button>
+
+            <div id="modal" class="modal">
+              <div class="modal-content">
+                <span class="close" >&times;</span>
+                <div class="custom_heading-container">
+                  <h3 class=" ">
+                    Principio de Bernoulli
+                  </h3>
+                </div>
+                <div class="img-box">
+                  <img src="qw1.png " alt="">
+                </div> <br>
+                <p>
+                  El principio de Bernoulli en hidrodinámica nos enseña cómo un fluido en general se mueve y cómo afecta a su entorno. Según este principio, cuando un fluido fluye rápido, ejerce menos presión, y cuando fluye despacio, ejerce más presión. Esto significa que cuando dicho fluido se mueve rápido, puede levantar objetos o empujarlos. Por ejemplo, si soplamos sobre un sorbete sumergido en agua, el agua se moverá rápido en la parte superior y más lento en la parte inferior, creando una diferencia de presión que hará que el agua suba por el sorbete.
+                </p>
+              </div>
+            </div>
+            <script>const openModalBtn = document.getElementById('openModal');
+              const modal = document.getElementById('modal');
+              const closeModalBtn = document.getElementsByClassName('close')[0];
+              
+              openModalBtn.addEventListener('click', function() {
+                modal.style.display = 'block';
+              });
+              
+              closeModalBtn.addEventListener('click', function() {
+                modal.style.display = 'none';
+              });</script>
+            <div id="openModal" class="btn-box">
+              <a  id="openModalBtn">Leer más</a>
+              
+            </div>
+            
+          </div>
+          asdasdas
+          <div class="col-md-3">
+            <div class="box b-2">
+              <div class="img-box">
+                <img src="" alt="">
+              </div>
+              <div class="detail-box">
+                <h6>
+                  Ecuación de Bernoulli
+                </h6>
+                
+                <div class="btn-box">
+                  <a href="#" class="openModalBtn">Read More 2</a>
+                </div>
+                <div id="modal2" class="modal">
+                  <span class="close">&times;</span>
+                  <h2>Ventana modal 2</h2>
+                  <p>Contenido de la ventana modal 2.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+         
+          <div class="col-md-3">
+            <div class="box b-3">
+              <div class="img-box">
+                <img src="" alt="">
+              </div>
+              <div class="detail-box">
+                <h6>
+                  Ecuación de Torricelli  
+                </h6>
+             
+                <div class="btn-box">
+                  <a href="#" class="openModalBtn">Read More 3</a>
+                </div>
+                <div id="modal3" class="modal">
+                  <span class="close">&times;</span>
+                  <h2>Ventana modal 3</h2>
+                  <p>Contenido de la ventana modal 3.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-3">
+            <div class="box b-4">
+              <div class="img-box">
+                <img src="" alt="">
+              </div>
+              <div class="detail-box">
+                <h6>
+                  Formula del caudal
+                </h6>
+                <div class="btn-box">
+                  <a href="#" class="openModalBtn">Read More 4</a>
+                </div>
+                <div id="modal4" class="modal">
+                  <span class="close">&times;</span>
+                  <h2>Ventana modal 4</h2>
+                  <p>Contenido de la ventana modal 4.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>-->
+        <div class="row">
+          <div class="card" id="card1">
+            <div class="custom_heading-container">
+              <h3>Ecuación de continuidad</h3>
+            </div>
+            <img src="images/caudallllll.gif" alt=""><br>
+            <button class="modal-btn" data-target="modal1">leer mas</button>
+          </div>
+        
+          <div class="card" id="card2">
+            <div class="custom_heading-container">
+              <h3>Ecuación de Bernoulli</h3>
+            </div>
+            
+            <img src="images/bernoullis_law_derivation_diagram.gif" alt="">
+            <br><br>
+            <button class="modal-btn" data-target="modal2">leer mas</button>
+          </div>
+
+          <div class="card" id="card3">
+            <div class="custom_heading-container">
+              <h3>Ecuación de Torricelli</h3>
+            </div>
+            <img src="images/T10_img01.png" alt=""><br>
+            <button class="modal-btn" data-target="modal3">leer mas</button>
+          </div>
+          <div class="card" id="card4">
+            <div class="custom_heading-container">
+              <h3>Formula del caudal</h3>
+            </div>
+            <img src="images/eer.png" alt=""><br>
+            <button class="modal-btn" data-target="modal4">leer mas</button>
+          </div>
+        
+          <!-- Ventana modal -->
+          <div class="modal" id="modal1">
+            <div class="modal-content">
+              <span class="close-btn" data-target="modal1">&times;</span>
+              <h3>Ecuación de continuidad</h3>
+              <p>La ecuación de continuidad en hidrodinámica es una forma de entender cómo un fluido se mueve en diferentes partes de un flujo. 
+                Nos dice que, si el fluido en general se mueve más rápido en un lugar, 
+                entonces debe moverse más despacio en otro lugar para mantener la misma cantidad fluyendo en total. 
+                Puedes imaginarlo como si el agua fuera un tren y los vagones se movieran a diferentes velocidades.</p>
+              <img src="images/caudallllll.gif" alt=""  style="width: 500px; display: flex;
+              justify-content: center;">
+              <p>Expresada como: </p>
+              <p>\(A_1 \cdot V_1 = A_2 \cdot V_2\).</p>
+              <p> Simbología:</p>
+              <div class="row">
+                <div>A1 = Sección transversal del punto 1.</div>
+                <div>V1 = Velocidad del fluido en el punto 1.</div>
+              </div>
+              <div class="row">
+                <div>A2 = Sección transversal del punto 1.</div>
+                <div>V2 = Velocidad del fluido en el punto 1</div>
+              </div>
+              <p>En el caso de la imagen cuando la sección disminuye se debe aplicar el mismo concepto para que el caudal se mantenga constante:</p>
+              <p>\( V_2 = V_1 \cdot \frac{A_1}{A_2} \)</p>
+
+            </div>
+          </div>
+        
+          <div class="modal" id="modal2">
+            <div class="modal-content">
+              <span class="close-btn" data-target="modal2">&times;</span>
+              <h3>Ecuación de Bernoulli</h3>
+              <p>La ecuación de Bernoulli en hidrodinámica es una fórmula que nos ayuda a entender cómo un fluido se mueve y cómo afecta a su entorno. 
+                Nos dice que cuando el fluido se mueve rápido, ejerce menos presión, y cuando se mueve despacio, 
+                ejerce más presión. Podemos imaginarlo como si el agua fuera un corredor: cuando corre muy rápido, empuja menos y puede saltar más alto, 
+                pero cuando corre despacio, empuja más y no puede saltar tan alto.</p>
+              <p>\( P_1 + \frac{1}{2} pv_1^2 + pgh_1 = P_2 + \frac{1}{2} pv_2^2 + pgh_2 \)</p>
+              <th>Simbología:</th>
+              <table>
+                <tr>
+                    <td>\( P_1\) = Presión del fluido en el punto 1.</td>
+                    <td>\( P_2\) = Presión del fluido en el punto 2.</td>                
+                </tr>
+                <tr>
+                    <td>\( V_1\) = Velocidad del fluido en el punto 1.</td>
+                    <td>\( V_2\) = Velocidad del fluido en el punto 2.</td>
+                </tr>
+                <tr>
+                    <td>\( H_1\) = Altura del fluido en el punto 1</td>
+                    <td>\( H_2\) = Altura del fluido en el punto 2</td>
+                </tr>
+            </table>
+            </div>
+          </div>
+
+          <div class="modal" id="modal3">
+            <div class="modal-content">
+              <span class="close-btn" data-target="modal3">&times;</span>
+              <h3>Ecuación de Torricelli</h3>
+              <p>La ecuación de Torricelli en hidrodinámica es una fórmula que nos ayuda a entender cómo un fluido puede fluir a través de un orificio o una abertura. 
+                Nos dice que la velocidad a la que un fluido sale de un orificio está relacionada con la altura a la que se encuentra el fluido por encima del orificio. 
+                Imagina que tienes una botella llena de agua y le haces un agujero en la parte inferior. 
+                Cuanto más alta sea el agua en la botella, más rápido saldrá por el agujero.</p>
+              <p>\(v = \sqrt{2gh}\)</p>
+              <table>
+                <tr>
+                  <th>Simbología:</th>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>v = velocidad del fluido.</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>a = aceleración tomando en cuenta la gravedad.</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>h = altura del líquido sobre el agujero.</td>
+                  <td></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <div class="modal" id="modal4">
+            <div class="modal-content">
+              <span class="close-btn" data-target="modal4">&times;</span>
+              <h3>Formula del caudal</h3>
+              <p>La fórmula del caudal en hidrodinámica nos ayuda a calcular la cantidad de agua que fluye en un lugar determinado. 
+                El caudal se representa con la letra "Q" y se calcula multiplicando la velocidad del 
+                agua "V" por el área del lugar por donde fluye "A".</p>
+              <p>\(Q = A \cdot v\)</p>
+              <p><strong>Simbología:</strong></p>
+              <p><strong>Q:</strong> Representación corta de la palabra caudal.</p>
+              <p><strong>A:</strong> Área de la sección transversal.</p>
+              <p><strong>v:</strong> Velocidad del fluido.</p>
+            </div>
+          </div>
+        </div>
+      </div>   
+    </div>
+  </section>
+
+  <section>
+    <div class="custom_heading-container">
+      <h3>EJERCICIOS PRACTICOS</h3>
+    </div>
+    <div class="container">
+      <p class="text1">Para los ejercicios de aplicación se limitará por niveles de dificultad, 
+        empezando por ejercicios prácticos sencillos subiendo su dificultad. 
+        Es importante mencionar que todo lo necesario para la 
+        resolución de ejercicios están en el presente documento.</p>
+  </div>
+    <div class="ejercicios-aa">
+      <p><strong>a.</strong> Un recipiente tiene un tubo de salida en su parte inferior. El tubo tiene un diámetro de 2 cm y está sumergido en agua. 
+        Si el agua fluye a través del tubo a una velocidad de 0.5 m/s, calcula el caudal de agua que sale del tubo.</p>
+      <p><strong>Datos:</strong></p>
+      <p><Strong>r</Strong> = 2 cm</p>
+      <p><strong>v</strong> = 0.5 m/S</p>
+      <p><strong>Q</strong> = ¿?</p>
+      <table>
+        <tr>
+          1.	Convertir el radio del tubo a metros.
+        </tr><br>
+        <tr>
+          \(2 \, \text{cm} \cdot \frac{1 \, \text{m}}{100 \, \text{cm}} = 0.01 \, \text{m}\)
+        </tr><br>
+        <tr>
+          2.	Para obtener el área del tubo se usa la formula del área del círculo.
+        </tr><br>
+        <tr>
+          \(A = \pi \cdot (0.01 \, \text{m})^2 \cdot 0.5 \, \text{m/s}\)
+        </tr><br>
+        <tr>
+          \(A = 0.000314 \, \text{m}^2\)
+        </tr><br>
+        <tr>
+          3.	Usando la ecuación del caudal se obtiene el resultado.
+        </tr><br>
+        <tr>
+          \(Q = A \cdot v\).
+        </tr><br>
+        <tr>
+          \(Q = 0.000314 \, \text{m}^2 \cdot 0.5 \, \text{m/s}\).
+        </tr><br>
+        <tr>
+          \(Q = 0.000157 \, \text{m}^3/\text{s}\).
+        </tr>
+      </table>
+      <p><strong>Respuesta:</strong> El caudal de agua que sale del tubo es de aproximadamente 0.000157 metros cúbicos por segundo.</p>
+      
+
+    </div><br>
+    <div class="ejercicios-aa1">
+      <p><strong>b.</strong> b.	Un tanque cilíndrico de agua de 5 metros de altura tiene un pequeño orificio en su parte inferior. 
+        Calcula la velocidad con la que el agua sale del orificio</p>
+      <p><strong>Datos:</strong></p>
+      <p><Strong>h</Strong> = 5 m</p>
+      <p><strong>g</strong> = \(9.8 \, \text{m/s}^2\)</p> 
+      <p><strong>v</strong> = ¿?</p>
+      <table>
+        <tr>
+          1.	Utilizando la ecuación de Torricelli.
+        </tr><br>
+        <tr>
+          \(v = \sqrt{2gh}\)
+        </tr><br>
+        <tr>
+          \(v = \sqrt{2 \cdot (9.8 \, \text{m/s})^2 \cdot 5 \, \text{m}}\)
+        </tr><br>
+        <tr>
+          \(v = \sqrt{(98 \, \text{m/s})^2}\)
+        </tr><br>
+        <tr>
+          \(v = 9.90 \, \text{m/s}\)
+        </tr>
+        
+      </table>
+      <p><strong>Respuesta:</strong> La velocidad con la que el agua sale del orificio es aproximadamente 9.90 m/s, de acuerdo con la ecuación de Torricelli.</p>
+      
+
+    </div><br>
+  </section>
+</section>
+<div class="custom_heading-container">
+  <h3 class=" ">
+    Actividades
+  </h3>
+</div>
+<br>
+<div class="actividadd">
+  <div style="width:100%;display:flex;flex-direction:column;gap:8px;min-height:635px;"><iframe src="https://quizizz.com/embed/quiz/64c222bd2cc8730007159eb2" title="Hidrodinamica  - Quizizz" style="flex:1;" frameBorder="0" allowfullscreen></iframe><a href="https://quizizz.com/admin?source=embedFrame" target="_blank">Explore more at Quizizz.</a></div></div>
+<br>
+
+<section>
+
+  <!-- end service section -->
+
+  <!-- info section -->
+  <section class="info_section layout_padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="info-logo">
+            <h2>
+              UTPL
+            </h2>
+            <p>
+              Universidad Tecnica Particular de Loja
+            </p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="info-nav">
+            <h4>
+              Navigation
+            </h4>
+            <ul>
+              <li>
+                <a href="index.html">
+                  Home
+                </a>
+              </li>
+              <li>
+                <a href="about.html">
+                  Conceptos Basicos
+                </a>
+              </li>
+              <li>
+                <a href="service.html">
+                  Ecuaciones
+                </a>
+              </li>
+              <li>
+                <a href="contact.html">
+                  Ejercicios
+                </a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="info-contact">
+            <h4>
+              Información
+            </h4>
+            <div class="location">
+              <a href="">
+                <img src="images/location.png" alt="">
+                <span>
+                  San Cayetano Alto - Loja
+                </span>
+              </a>
+            </div>
+            
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="discover">
+            <h4>
+              Discover
+            </h4>
+            <!--<ul>
+              <li>
+                <a href="">
+                  Help
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  How It Works
+
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  subscribe
+                </a>
+              </li>
+              <li>
+                <a href="contact.html">
+                  Contact Us
+                </a>
+              </li>
+            </ul>-->  
+            <div class="social-box">
+              <a href="https://www.facebook.com/utpl.loja/">
+                <img src="images/facebook.png" alt="">
+              </a>
+              <a href="https://twitter.com/utpl?lang=es">
+                <img src="images/twitter.png" alt="">
+              </a>
+              <a href="https://www.instagram.com/utpl/?hl=es-la">
+                <img src="images/linkedin.png" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- end info_section -->
+
+  <!-- footer section -->
+  <section class="container-fluid footer_section">
+    <p>
+      Copyright &copy; 2019 All Rights Reserved By
+      <a href="https://html.design/">Free Html Templates</a>
+    </p>
+  </section>
+  <!-- footer section -->
+
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/scripts.js"></script>
+  
+</body>
+
+</html>
